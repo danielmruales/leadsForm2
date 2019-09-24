@@ -1,0 +1,32 @@
+.text-field {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 8px;
+  width: 100%;
+  background-color: #FBFDFF;
+  border-color: #A7B3C1;
+  border-width: 1px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 6px;
+  color: black;
+  box-shadow: none;
+  outline: none !important;
+}
+.text-field::placeholder {
+  color: #727E8C;
+}
+.text-field:focus {
+  border-color: #7F5FAA;
+  background-color: white;
+}
+.text-field.invalid {
+  border-color: #E5584A;
+}
+
+.text-input-bounds {
+  margin-bottom: 12px;
+  width: 100%;
+}
