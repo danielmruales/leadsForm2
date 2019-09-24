@@ -252,7 +252,12 @@ class FormWidget extends Component {
         </div>
       );
     }
-    return <div className="thank-you">Thanks! A coach will contact you shortly with more information.</div>
+    return <div className="thank-you"> 
+    Thanks! A coach will contact you shortly with more information. 
+    In the meantime click <a target='_blank' rel='noopener noreferrer' 
+    href='https://cdn2.hubspot.net/hubfs/3856083/CEO%20Engagement%20Checklist.pdf'>here</a>
+     to view a PDF.
+    </div>
   }
 }
 
